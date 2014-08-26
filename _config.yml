@@ -1,0 +1,35 @@
+# Site settings
+title: Rails Girls Atlanta
+email: your-email@domain.com
+
+# welcome tagline
+description: "Rails Girls aims to give tools for girls and women to build their ideas. Get excited and make things!"
+# about columns
+aboutleft: Rails Girls Rocks! Our Atlanta Group meets up every month!
+aboutright: Our workshops are catered to very beginners and our meetups are targeted to developers at any level
+
+url: railsgirlsatl.com
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: E62B31
+  secondary: 444744
+  secondary-dark: 730202
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    caption: Tweet Us
+    url: http://twitter.com/railsgirlsatl
+  - title: meetup
+    caption: Meet Us
+    url: http://www.meetup.com/Rails-Girls-Atlanta/
+# Postal address (add as many lines as necessary)
+# address:
+#   - line: 3481 Melrose Place
+#   - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,33 @@
+
+    <!-- blog Grid Section -->
+    <section id="Workshops">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Upcoming Events & Workshops</h2>
+                    {% assign loc = 'Atlanta, GA' %}
+                    {% for location in post.location %}
+                        {% unless location == loc %}
+                            <p>No Atlanta workshops are currently scheduled.</p>
+                        {% endunless %}
+                    {% endfor %}
+                    <hr class="star-primary">
+            </div>
+            <div class="row">
+                {% for post in site.posts %}
+                    {% if post.category contains 'Events and Workshops' %}
+                    <div class="col-sm-4 blog-item">
+                        <a href="#blogModal-{{ post.modal-id }}" class="blog-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="assets/img/blog/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
