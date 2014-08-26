@@ -10,13 +10,6 @@ aboutright: Our workshops are catered to very beginners and our meetups are targ
 
 url: railsgirlsatl.com
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: E62B31
-  secondary: 444744
-  secondary-dark: 730202
-
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -33,3 +26,9 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: E62B31
+  secondary: 444744
+  secondary-dark: 730202
