@@ -1,6 +1,10 @@
 Rails Girls Atlanta Website
 =========================
 
+## Contributing to the Site
+ - Submit a blog post or submit suggestions for changes via pull request
+ - Changes to the Welcome or About sections of the home page can be made in
+   `_confing.yml`
 
 ## Submit a Blog Post
  - Create posts to display your projects.
