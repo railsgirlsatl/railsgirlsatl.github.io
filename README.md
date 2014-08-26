@@ -34,3 +34,8 @@ Workshps and Events `category: Events and Workshops`
 
 ## Contributing to the Site
  - Pull requests are welcome & encouraged!
+
+### Build the Site Locally
+ - Fork this Repo
+ - `gem install jekyll`
+ - `jekyll build && jekyll serve`
