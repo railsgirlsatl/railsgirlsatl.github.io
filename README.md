@@ -32,7 +32,7 @@ Create a pull request against the master branch to have your post merged.
 For workshop or story posts to be shown under the correct section, they must
 be given the correct category:
 
-Success Stories `category: Success Stories`
+Stories `category: Stories`
 
 Workshps and Events `category: Events and Workshops`
 

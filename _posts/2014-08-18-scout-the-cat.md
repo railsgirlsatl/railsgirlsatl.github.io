@@ -5,7 +5,7 @@ date: 2014-08-18
 img: railsgirls-sq.png
 alt: image-alt
 
-category: Success Stories
+category: Stories
 description: Scout learned a lot
 ---
 
