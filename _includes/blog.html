@@ -1,9 +1,6 @@
 <section id="blog">
-  {% for post in site.posts %}
-    {% if post.category contains 'Events and Workshops' %}
-      {% include workshops_grid.html %}
-     {% endif %}
-  {% endfor %}
+{% include workshops_grid.html %}
+
   
   {% for post in site.posts %}
     {% if post.category contains 'Success Stories' %}
