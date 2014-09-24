@@ -24,15 +24,8 @@
                     <li class="page-scroll">
                         <a href="/#Workshops">Workshops</a>
                     </li>
-                    {% for post in site.posts %}
-                        {% if post.category contains 'Success Stories' %}
                     <li class="page-scroll">
                         <a href="/#Stories">Stories</a>
-                    </li>
-                        {% endif %}
-                    {% endfor %}
-                    <li class="page-scroll">
-                        <a href="/#Posts">Blog Posts</a>
                     </li>
                     {% assign pages_list = site.pages %}
                       {% for node in pages_list %}
