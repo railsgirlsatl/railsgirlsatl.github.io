@@ -32,3 +32,6 @@ color:
   primary: E62B31
   secondary: 444744
   secondary-dark: 730202
+
+collections:
+  - events
