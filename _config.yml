@@ -5,8 +5,8 @@ email: your-email@domain.com
 # welcome tagline
 description: "Rails Girls aims to give tools for girls and women to build their ideas. Get excited and make things!"
 # about columns
-aboutleft: Rails Girls Rocks! Our Atlanta Group meets up every month!
-aboutright: Our workshops are catered to very beginners and our meetups are targeted to developers at any level
+aboutleft: "We hold monthly meetups to discuss code, culture or hold mini workshops" 
+aboutright: "Our workshops are catered to very beginners and our meetups are targeted to developers at any level"
 
 url: railsgirlsatl.com
 
