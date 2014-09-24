@@ -1,6 +1,6 @@
  <!-- blog Modals -->
- {% for post in site.posts %}
-    <div class="blog-modal modal fade" id="blogModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ {% for event in site.events %}
+    <div class="blog-modal modal fade" id="blogModal-{{ event.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,21 +12,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+                            <h2>{{ event.title }}</h2>
                             <hr class="star-primary">
-                            <img src="{{ base_path }}/assets/img/blog/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
+                            <img src="{{ base_path }}/assets/img/blog/{{ event.img }}" class="img-responsive img-centered" alt="{{ event.alt }}">
+                            <p>{{ event.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
-                                    <strong>{{ post.date }}</a>
+                                    <strong>{{ event.date }}</a>
                                     </strong>
                                 </li>
                                 <li>Category:
-                                    <strong>{{ post.category }}</a>
+                                    <strong>{{ event.category }}</a>
                                     </strong>
                                 </li>
                             </ul>
-                            <p> {{ post.content }}</p>
+                            <p> {{ event.content }}</p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
