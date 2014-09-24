@@ -21,13 +21,9 @@
                     <li class="page-scroll">
                         <a href="/#About">About</a>
                     </li>
-                    {% for post in site.posts %}
-                        {% if post.category contains 'Events and Workshops' %}
                     <li class="page-scroll">
                         <a href="/#Workshops">Workshops</a>
                     </li>
-                        {% endif %}
-                    {% endfor %}
                     {% for post in site.posts %}
                         {% if post.category contains 'Success Stories' %}
                     <li class="page-scroll">
