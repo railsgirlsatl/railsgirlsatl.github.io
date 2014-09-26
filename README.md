@@ -4,7 +4,7 @@ Rails Girls Atlanta Website
 ## Contributing to the Site
  - Submit a blog post or submit suggestions for changes via pull request
  - Changes to the Welcome or About sections of the home page can be made in
-   `_confing.yml`
+   `_config.yml`
 
 ## Submit a Blog Post
  - Create posts to display your projects.
@@ -22,7 +22,7 @@ title: My Blog Post
 post text goes here
 ---
 ```
-modal-id should be similar to the title. This is used to match the post to the 
+modal-id should be similar to the title. This is used to match the post to the
 corresponding modal block, so ids need to be unique.
 
 Create a pull request against the master branch to have your post merged.
