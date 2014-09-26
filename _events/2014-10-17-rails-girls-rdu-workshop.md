@@ -1,6 +1,5 @@
 ---
 layout: default
-modal-id: rails-girls-rdu
 date: 2014-10-17
 img: railsgirls-sq.png
 alt: image-alt

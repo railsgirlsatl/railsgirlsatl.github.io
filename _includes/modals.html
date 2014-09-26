@@ -1,6 +1,6 @@
  <!-- blog Modals -->
  {% for event in site.events %}
-    <div class="blog-modal modal fade" id="blogModal-{{ event.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="blog-modal modal fade" id="blogModal-{{ event.url | slugify }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">

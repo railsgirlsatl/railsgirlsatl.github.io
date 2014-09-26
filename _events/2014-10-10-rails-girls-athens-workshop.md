@@ -1,6 +1,5 @@
 ---
 layout: default
-modal-id: rails-girls-athens
 date: 2014-10-10
 img: RGAth_Logo.png
 alt: image-alt
