@@ -10,7 +10,7 @@
             <div class="row">
                 {% for event in site.events %}
                     <div class="col-sm-4 blog-item">
-                        <a href="#blogModal-{{ event.modal-id }}" class="blog-link" data-toggle="modal">
+                        <a href="#blogModal-{{ event.url | slugify }}" class="blog-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-plus-circle fa-3x"></i>

@@ -6,9 +6,9 @@
                 <hr class="star-primary">
         </div>
         <div class="row">
-            {% for post in site.posts %}   
+            {% for post in site.posts %}
                 <div class="col-sm-4 blog-item">
-                    <a href="#blogModal-{{ post.modal-id }}" class="blog-link" data-toggle="modal">
+                    <a href="#blogModal-{{ post.url | slugify}}" class="blog-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-plus-circle fa-3x"></i>
@@ -17,7 +17,6 @@
                         <img src="{{ base_path }}/assets/img/blog/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                     </a>
                 </div>
-                
             {% endfor %}
         </div>
     </div>
