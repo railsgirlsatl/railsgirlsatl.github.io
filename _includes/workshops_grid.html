@@ -7,16 +7,42 @@
                     <h2>Upcoming Events & Workshops</h2>
                     <hr class="star-primary">
             </div>
-            <div class="row">
+            <div style="max-width:890px; margin: 0 auto">
                 {% for event in site.events %}
-                    <div class="col-sm-4 blog-item">
-                        <a href="#blogModal-{{ event.url | slugify }}" class="blog-link" data-toggle="modal">
-                            <div class="caption">
+                    <div class="blog-item">
+                        <!-- <a href="#blogModal-{{ event.url | slugify }}" class="blog-link" data-toggle="modal" ></a> -->
+                            <!-- <div class="caption" style="width: 75%">
                                 <div class="caption-content">
                                     <i class="fa fa-plus-circle fa-3x"></i>
                                 </div>
+                            </div> -->
+
+                            <div style="text-align: center">
+                            <img class="eventimg" width='150px' height='150px' src="assets/img/blog/{{ event.img }}" class="img-responsive" alt="{{ event.alt }}">
                             </div>
-                            <img src="assets/img/blog/{{ event.img }}" class="img-responsive" alt="{{ event.alt }}">
+
+                            <div class="eventtext">
+                                <ul class="item-details" style="font-size: 20px">
+                                <li><h4>{{ event.title }}</h4></li>
+                                <li>{{ event.description }}</li>
+                                <li>Date:
+                                    <strong>{{ event.date }}
+                                    </strong>
+                                </li>
+                                <li>Location:
+                                    <strong>{{ event.location }}
+                                    </strong>
+                                </li>
+                                <li>Category:
+                                    <strong>{{ event.category }}
+                                    </strong>
+                                </li>
+                                <li> {{ event.content }}</li>
+                            </ul>
+                            
+                            <hr>
+                            </div>
+
                         </a>
                     </div>
                 {% endfor %}
