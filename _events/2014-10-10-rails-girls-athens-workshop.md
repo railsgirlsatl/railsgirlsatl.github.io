@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-10-10
-img: RGAth_Logo.png
+img: RGAth_Logo_square.png
 alt: image-alt
 
 category: Events and Workshops

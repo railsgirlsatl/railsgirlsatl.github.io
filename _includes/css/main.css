@@ -4,6 +4,21 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.eventimg {
+    margin-right: 20px;
+}
+
+@media (min-width: 480px) {
+  .eventimg {
+    float: left;
+  }
+}
+@media (max-width: 800px) {
+    ul {
+        padding-left: 0px;
+    }
+}
+
 body {
     overflow-x: hidden;
     padding-top: 65px;
@@ -168,7 +183,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px 1em;
 }
 
 section h2 {
@@ -183,7 +198,7 @@ section.alt {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 75px 1em;
     }
 
     section.first {
@@ -200,7 +215,8 @@ section.alt {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 610px;
+    padding-left: 30px;
 }
 
 #blog .blog-item .blog-link .caption {
@@ -245,6 +261,8 @@ section.alt {
 @media(min-width:767px) {
     #blog .blog-item {
         margin: 0 0 30px;
+        width: 75%;
+        overflow: hidden;
     }
 }
 
@@ -440,3 +458,25 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+@media (min-width: 480px) {
+  .eventimg {
+    float: left;
+  }
+  .eventtext {
+    margin-top: -12px;
+    margin-left: 3em;
+  }
+}
+@media (max-width: 1200px) {
+    ul {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 480px) {
+    .eventtext {
+        margin-left: 3em;
+        margin-top: 1em;
+    }
+}
+
