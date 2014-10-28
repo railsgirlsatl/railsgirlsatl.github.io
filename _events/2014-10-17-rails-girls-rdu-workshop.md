@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2014-10-17
-img: railsgirls-sq_big.png
+img: railsgirls-sq.png
 alt: image-alt
 
 category: Events and Workshops
