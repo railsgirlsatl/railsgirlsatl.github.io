@@ -6,7 +6,7 @@ title: Resources
 
 If you're completely new to programming and Ruby on Rails, we recommend you check out the [Rails Girls Guide](http://guides.railsgirls.com/app/) to building your first app.
 
-Also part of the workshop curriculum, many of us have enjoyed using [Try Ruby](tryruby.org) to get better acquainted with ruby syntax.
+Also part of the workshop curriculum, many of us have enjoyed using [Try Ruby](http://tryruby.org) to get better acquainted with ruby syntax.
 
 ### Post Workshop
 
