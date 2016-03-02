@@ -5,7 +5,7 @@ title: Giving Back
 
 ## Speak at an Event
 
-Rails Girls Atlanta holds a [monthly meetup](www.meetup.com/Rails-Girls-Atlanta/) where we have a speaker or two present to the group on code or culture or hold a mini workshop and we’re always open to sharing or reviewing each other’s code. Contact us at railsgirlsatl[at]gmail[dot]com if you're interested in speaking at an event, we'd love to hear from you.
+Rails Girls Atlanta holds a [monthly meetup](http://www.meetup.com/Rails-Girls-Atlanta/) where we have a speaker or two present to the group on code or culture or hold a mini workshop and we’re always open to sharing or reviewing each other’s code. Contact us at railsgirlsatl[at]gmail[dot]com if you're interested in speaking at an event, we'd love to hear from you.
 
 ## Become A Mentor
 
